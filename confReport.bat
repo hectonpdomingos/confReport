@@ -26,3 +26,8 @@ wmic logicaldisk get name >> fullReport.txt
 echo "############################################################################" >> fullReport.txt
 echo "############################################################################" >> fullReport.txt
 wmic diskdrive get model,name,size >> fullReport.txt
+
+echo "############################################################################" >> fullReport.txt
+echo "############################################################################" >> fullReport.txt
+
+netsh wlan show profile >> fullReport.txt
